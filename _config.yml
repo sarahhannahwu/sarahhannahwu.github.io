@@ -12,7 +12,7 @@ title                    : "Sarah H. Wu"
 title_separator          : "-"
 name                     : &name "Sarah Wu"
 description              : &description "Hi! I'm a predoctoral researcher at the Stanford Social Media Lab."
-url                      : https://sarahwu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://sarahhannahwu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sarahhannahwu/sarahwu.github.io"
 
