@@ -15,4 +15,4 @@ Prior to working at Stanford, I earned my BA in cognitive psychology and music m
 
 For fun
 ------
-I love to play tango and classical violin! Currently, I perform in an orquesta tipica and a community orchestra, and occasionally gig with other ensembles in the Bay Area. I also enjoy bouldering (extremeley statically)!
+I love to play tango and classical violin! Currently, I perform in an orquesta tipica and a community orchestra, and occasionally gig with other ensembles in the Bay Area. I also enjoy bouldering (extremely statically)!
