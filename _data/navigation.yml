@@ -9,8 +9,8 @@ main:
   - title: "CV"
     url: /files/Sarah_Wu_CV_2024.pdf
     
-  - title: "Publications & Posters"
-    url: /publications/
+#  - title: "Publications & Posters"
+#   url: /publications/
 
 #  - title: "Talks"
 #    url: /talks/    
