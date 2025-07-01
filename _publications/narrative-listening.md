@@ -1,6 +1,6 @@
 ---
 title: "Narrative Listening"
-category: conferences
+collection: publications
 permalink: /publication/narrative-listening
 excerpt: 'Is narrative listening linked to intuitions about the “mind” behind the music?'
 date: 2023-11-01
