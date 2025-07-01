@@ -9,4 +9,4 @@ venue: 'Psychonomics'
 slidesurl: 'http://sarahhannahwu.github.io/images/Psychonomics.pdf'
 citation: 'Wu, S.H. & Holmes, K.J. (2023). &quot;The mind behind the music: AI, intention, and the perception of musical narrative.&quot.'
 ---
-<!-- [Download paper here](http://academicpages.github.io/files/paper3.pdf) -->
+<!-- [Download the poster here](http://academicpages.github.io/files/paper3.pdf) -->
