@@ -10,13 +10,7 @@ main:
     url: /files/Sarah_Wu_CV_2024.pdf
     
   - title: "Publications & Posters"
-    url: /publications/
-
-#  - title: "Talks"
-#    url: /talks/    
-
-#  - title: "Teaching"
-#    url: /teaching/    
+    url: /publications/ 
     
   - title: "Music"
     url: /music/
