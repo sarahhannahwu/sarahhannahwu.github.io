@@ -1,5 +1,5 @@
 ---
-title: "Performances"
+title: "Recent Performances"
 excerpt: "Highlights from the last few years"
 layout: archive
 permalink: /music/
