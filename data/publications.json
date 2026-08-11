@@ -1,12 +1,10 @@
 [
   {
-    "title": "A very important finding about an interesting phenomenon",
-    "authors": "Jane Placeholder, Collaborator One, Collaborator Two",
-    "publication": "Journal of Important Findings",
-    "year": "2025",
-    "url": "https://doi.org/10.0000/example.2025",
-    "pdfPath": "./docs/publications/2025_Placeholder_ImportantFinding/2025_Placeholder_ImportantFinding.pdf",
-    "bibPath": "./docs/publications/2025_Placeholder_ImportantFinding/cite.bib"
+    "title": "Is there a “mind” behind the music? Attributing music to AI can suppress narrative meaning-making",
+    "authors": "Sarah H. Wu, Kevin J. Holmes",
+    "publication": "Cognitive Research: Principles and Implications",
+    "year": "2026",
+    "url": "https://link.springer.com/content/pdf/10.1186/s41235-026-00715-z.pdf"
   },
   {
     "title": "An earlier study that laid the groundwork",
