@@ -6,10 +6,13 @@
 
 main:
 
+  - title: "Home"
+    url: /
+
   - title: "CV"
-    url: /files/Sarah_Wu_CV_2024.pdf
+    url: /cv/
     
-  - title: "Publications & Posters"
+  - title: "Publications"
     url: /publications/ 
     
   - title: "Music"
