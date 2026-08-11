@@ -7,12 +7,12 @@
 :root {
   --color-text: #1f2328;
   --color-text-muted: #59636e;
-  --color-accent: #0b57d0;
+  --color-accent: #0b9fd0;
   --color-bg: #ffffff;
   --color-bg-subtle: #f6f8fa;
   --color-border: #d9dee3;
   --max-width: 46rem;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  --font-body: -apple-system, BlinkMacSystemFont, "Tienne", Roboto,
     "Helvetica Neue", Arial, sans-serif;
 }
 
