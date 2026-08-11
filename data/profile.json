@@ -1,16 +1,16 @@
 {
-  "name": "Dr. Jane Placeholder",
-  "title": "Assistant Professor of Something Interesting",
-  "affiliation": "University of Somewhere",
+  "name": "Sarah H. Wu",
+  "title": "PhD student in Media Psychology",
+  "affiliation": "Stanford University",
   "photoPath": "./assets/images/SarahWu_headshot.png",
   "bio": [
-    "I am a researcher studying interesting things. My work combines methods from one field with questions from another to understand how the world works.",
-    "Before joining the University of Somewhere, I completed my Ph.D. at Another University, where I was advised by Prof. Great Mentor."
+    "I research the psychology of technology use.",
+    "Before starting my PhD, I earned my BA in Psychology from Reed College in Portland, OR."
   ],
   "links": [
-    { "label": "Google Scholar", "url": "https://scholar.google.com/" },
-    { "label": "GitHub", "url": "https://github.com/" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=pPhSRRYAAAAJ&hl=en&authuser=2" },
+    { "label": "GitHub", "url": "https://github.com/sarahhannahwu" },
     { "label": "CV", "url": "./docs/cv.pdf" },
-    { "label": "Email", "url": "mailto:jane@example.edu" }
+    { "label": "Email", "url": "mailto:sarwu@stanford.edu" }
   ]
 }
