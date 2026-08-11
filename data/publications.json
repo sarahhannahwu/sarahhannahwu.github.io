@@ -7,12 +7,17 @@
     "url": "https://link.springer.com/content/pdf/10.1186/s41235-026-00715-z.pdf"
   },
   {
-    "title": "An earlier study that laid the groundwork",
-    "authors": "Jane Placeholder, Collaborator One",
-    "publication": "Proceedings of the Conference on Groundwork",
-    "year": "2024",
-    "url": "https://doi.org/10.0000/example.2024",
-    "pdfPath": "./docs/publications/2024_Placeholder_EarlierStudy/2024_Placeholder_EarlierStudy.pdf",
-    "bibPath": "./docs/publications/2024_Placeholder_EarlierStudy/cite.bib"
+    "title": "The role of human agency in human-AI co-creativity",
+    "authors": "Sarah H. Wu, Yuewen Yang, Angela Y. Lee, Alex Liebscher, Kristina Rapuano, Kate G. Niederhoffer, Jeffrey T. Hancock",
+    "publication": "Proceedings of the 2026 Conference on Creativity and Cognition",
+    "year": "2026",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3803784.3816857"
+  },
+  {
+    "title": "The role of perceived cost in college students’ motivational experiences and long-term achievement outcomes: A mixed-methods approach",
+    "authors": "Sarah H. Wu, Jennifer Henderlong Corpus",
+    "publication": "International Journal of Educational Research Open",
+    "year": "2023",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666374023000043"
   }
 ]

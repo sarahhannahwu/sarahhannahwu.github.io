@@ -4,13 +4,14 @@
   "affiliation": "Stanford University",
   "photoPath": "./assets/images/SarahWu_headshot.png",
   "bio": [
-    "I research the psychology of technology use.",
-    "Before starting my PhD, I earned my BA in Psychology from Reed College in Portland, OR."
+    "I research the psychology of technology use. I care about identifying and addressing situations where technology has the potential to undermine the human capacities to create and connect with each other.",
+    "Before starting my PhD, I earned my BA in Psychology from Reed College in Portland, OR, where I was fortunate to work with Dr. Kevin Holmes and Dr. Jennifer Corpus. I also worked as a predoctoral research fellow at the Stanford Institute for Research in the Social Sciences (IRiSS), assisting with research in the Social Media Lab.",
+    "Outside of research, I play violin in Argentine tango ensembles across the Bay Area."
   ],
   "links": [
     { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=pPhSRRYAAAAJ&hl=en&authuser=2" },
     { "label": "GitHub", "url": "https://github.com/sarahhannahwu" },
-    { "label": "CV", "url": "./docs/cv.pdf" },
+    { "label": "CV", "url": "./docs/Sarah_Wu_CV_2026.pdf" },
     { "label": "Email", "url": "mailto:sarwu@stanford.edu" }
   ]
 }

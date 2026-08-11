@@ -1,14 +1,22 @@
 [
   {
-    "title": "A very important finding about an interesting phenomenon",
-    "location": "Workshop on Interesting Things, University of Somewhere",
-    "date": "2026",
-    "link": "https://example.edu"
+    "title": "Human Agency in Human-AI Co-Creativity",
+    "location": "Stanford d.school (How Can Generative AI Help Us Learn?)",
+    "date": "May 2026"
   },
   {
-    "title": "An earlier study that laid the groundwork",
-    "location": "Conference on Groundwork",
-    "date": "2024",
-    "link": "https://example.edu"
+    "title": "Starting a PhD in the Social Sciences",
+    "location": "Institute for Research in the Social Sciences (IRiSS) at Stanford University",
+    "date": "January 2026"
+  },
+  {
+    "title": "Psychological Perceptions of AI-Generated Art",
+    "location": "Stanford Summer Session",
+    "date": "August 2025"
+  },
+  {
+    "title": "Psychological Perceptions of AI-Generated Art",
+    "location": "National Chengchi University (virtual presentation)",
+    "date": "July 2025"
   }
 ]
