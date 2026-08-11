@@ -4,6 +4,11 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
     document.title = profile.name;
     const navName = document.getElementById("nav-name");
     if (navName) navName.textContent = profile.name;
+    const navAvatar = document.getElementById("nav-avatar");
+    if (navAvatar && profile.photoPath) {
+      navAvatar.src = profile.photoPath;
+      navAvatar.alt = `${profile.name} headshot`;
+    }
     const footer = document.getElementById("footer-text");
     if (footer) {
       footer.textContent = `© ${new Date().getFullYear()} ${profile.name}`;
@@ -11,13 +16,6 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
   }
 
   const wrapper = Site.el("div", "profile");
-
-  if (profile.photoPath) {
-    const img = Site.el("img", "profile-photo");
-    img.src = profile.photoPath;
-    img.alt = profile.name || "Profile photo";
-    wrapper.appendChild(img);
-  }
 
   const body = Site.el("div", "profile-body");
   body.appendChild(Site.el("h1", null, profile.name || ""));
