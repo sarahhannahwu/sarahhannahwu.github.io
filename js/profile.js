@@ -1,4 +1,18 @@
 /** Renders data/profile.json into the About section, nav, title, and footer. */
+function appendBoldText(node, text) {
+  const segments = text.split(/(\*\*[^*]+\*\*)/g);
+  segments.forEach((segment) => {
+    if (!segment) return;
+    if (segment.startsWith("**") && segment.endsWith("**")) {
+      const strong = document.createElement("strong");
+      strong.textContent = segment.slice(2, -2);
+      node.appendChild(strong);
+      return;
+    }
+    node.appendChild(document.createTextNode(segment));
+  });
+}
+
 Site.load("./data/profile.json", "profile-container", (container, profile) => {
   if (profile.name) {
     document.title = profile.name;
@@ -22,10 +36,6 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
 
   const role = [profile.title, profile.affiliation].filter(Boolean).join(", ");
   if (role) body.appendChild(Site.el("p", "profile-role", role));
-
-  (profile.bio || []).forEach((paragraph) => {
-    body.appendChild(Site.el("p", "profile-bio", paragraph));
-  });
 
   if (profile.links && profile.links.length) {
     const list = Site.el("ul", "profile-links");
