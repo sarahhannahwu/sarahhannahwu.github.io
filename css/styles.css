@@ -127,7 +127,7 @@ img {
 }
 
 .nav-links a:hover {
-  color: var(--color-accent);
+  color: #FFCB47;
   text-decoration: none;
 }
 
