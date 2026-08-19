@@ -89,6 +89,14 @@ const Site = {
   },
 };
 
+let savedTheme = null;
+try {
+  savedTheme = localStorage.getItem("theme");
+} catch (error) {}
+if (savedTheme === "light" || savedTheme === "dark") {
+  document.documentElement.dataset.theme = savedTheme;
+}
+
 // Mobile nav toggle
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector(".site-nav");
@@ -104,4 +112,32 @@ document.addEventListener("DOMContentLoaded", () => {
       toggle.setAttribute("aria-expanded", "false");
     })
   );
+
+});
+
+const isDarkTheme = () =>
+  document.documentElement.dataset.theme === "dark" ||
+  (!document.documentElement.dataset.theme &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+const updateThemeToggle = () => {
+  const themeToggle = document.getElementById("theme-toggle");
+  if (!themeToggle) return;
+  const isDark = isDarkTheme();
+  const label = isDark ? "Switch to light mode" : "Switch to dark mode";
+  themeToggle.setAttribute("aria-label", label);
+  themeToggle.title = label;
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+};
+
+document.addEventListener("DOMContentLoaded", updateThemeToggle);
+document.addEventListener("click", (event) => {
+  const themeToggle = event.target.closest?.("#theme-toggle");
+  if (!themeToggle) return;
+  const nextTheme = isDarkTheme() ? "light" : "dark";
+  document.documentElement.dataset.theme = nextTheme;
+  try {
+    localStorage.setItem("theme", nextTheme);
+  } catch (error) {}
+  updateThemeToggle();
 });
