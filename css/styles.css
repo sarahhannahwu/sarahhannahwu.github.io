@@ -101,6 +101,11 @@ img {
   z-index: 10;
 }
 
+:root[data-theme="light"] .site-header {
+  background: #FFCB47;
+  border-bottom-color: rgba(31, 35, 40, 0.25);
+}
+
 .site-nav {
   width: 100%;
   max-width: none;
@@ -125,6 +130,10 @@ img {
   border-radius: 999px;
   border: 1px solid var(--color-border);
   background: var(--color-bg-subtle);
+}
+
+:root[data-theme="light"] .nav-avatar {
+  border-color: rgba(31, 35, 40, 0.35);
 }
 
 .nav-name {
@@ -163,6 +172,18 @@ img {
   text-decoration: none;
 }
 
+:root[data-theme="light"] .nav-name,
+:root[data-theme="light"] .nav-links a,
+:root[data-theme="light"] .nav-toggle,
+:root[data-theme="light"] .theme-toggle {
+  color: #1f2328;
+}
+
+:root[data-theme="light"] .nav-links a:hover,
+:root[data-theme="light"] .theme-toggle:hover {
+  color: #0d1117;
+}
+
 .theme-toggle {
   flex: 0 0 auto;
   width: 2.2rem;
@@ -184,6 +205,15 @@ img {
 .theme-toggle:hover {
   color: #FFCB47;
   border-color: #FFCB47;
+}
+
+:root[data-theme="light"] .theme-toggle {
+  background: transparent;
+  border-color: rgba(31, 35, 40, 0.35);
+}
+
+:root[data-theme="light"] .theme-toggle:hover {
+  border-color: #0d1117;
 }
 
 .theme-toggle svg {
