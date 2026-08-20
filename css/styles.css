@@ -250,6 +250,10 @@ main {
   flex-shrink: 0;
 }
 
+:root[data-theme="light"] .profile-photo {
+  border-color: #FFCB47;
+}
+
 .profile-body {
   flex: 1;
   min-width: 15rem;
@@ -359,6 +363,7 @@ main {
 }
 
 .paper-title {
+  font-family: var(--font-display);
   font-weight: 600;
   margin: 0 0 0.15rem;
 }
@@ -390,6 +395,7 @@ main {
 }
 
 .item-title {
+  font-family: var(--font-display);
   font-weight: 600;
   margin: 0;
 }
