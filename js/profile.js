@@ -17,6 +17,13 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
 
   const wrapper = Site.el("div", "profile");
 
+  if (profile.photoPath) {
+    const photo = Site.el("img", "profile-photo");
+    photo.src = profile.photoPath;
+    photo.alt = `${profile.name || "Profile"} headshot`;
+    wrapper.appendChild(photo);
+  }
+
   const body = Site.el("div", "profile-body");
   body.appendChild(Site.el("h1", null, profile.name || ""));
 

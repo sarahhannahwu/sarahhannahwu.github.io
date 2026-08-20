@@ -79,6 +79,8 @@ a:hover {
 }
 
 h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
   font-size: 1.4rem;
   border-bottom: 1px solid var(--color-border);
   padding-bottom: 0.35rem;
@@ -235,10 +237,11 @@ main {
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 190px;
+  height: 190px;
   object-fit: cover;
   border-radius: 8px;
+  border: 3px solid var(--color-accent);
   flex-shrink: 0;
 }
 
@@ -248,6 +251,8 @@ main {
 }
 
 .profile-body h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
   margin: 0 0 0.2rem;
   font-size: 1.7rem;
 }
