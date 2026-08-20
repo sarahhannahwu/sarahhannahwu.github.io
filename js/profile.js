@@ -16,13 +16,26 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
   }
 
   const wrapper = Site.el("div", "profile");
+  const aside = Site.el("div", "profile-aside");
 
   if (profile.photoPath) {
     const photo = Site.el("img", "profile-photo");
     photo.src = profile.photoPath;
     photo.alt = `${profile.name || "Profile"} headshot`;
-    wrapper.appendChild(photo);
+    aside.appendChild(photo);
   }
+
+  if (profile.links && profile.links.length) {
+    const list = Site.el("ul", "profile-links");
+    profile.links.forEach(({ label, url }) => {
+      const li = document.createElement("li");
+      li.appendChild(Site.profileLink(url, label));
+      list.appendChild(li);
+    });
+    aside.appendChild(list);
+  }
+
+  if (aside.childNodes.length) wrapper.appendChild(aside);
 
   const body = Site.el("div", "profile-body");
   body.appendChild(Site.el("h1", null, profile.name || ""));
@@ -33,16 +46,6 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
   (profile.bio || []).forEach((paragraph) => {
     body.appendChild(Site.el("p", "profile-bio", paragraph));
   });
-
-  if (profile.links && profile.links.length) {
-    const list = Site.el("ul", "profile-links");
-    profile.links.forEach(({ label, url }) => {
-      const li = document.createElement("li");
-      li.appendChild(Site.profileLink(url, label));
-      list.appendChild(li);
-    });
-    body.appendChild(list);
-  }
 
   wrapper.appendChild(body);
   container.appendChild(wrapper);
