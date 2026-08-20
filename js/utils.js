@@ -64,7 +64,12 @@ const Site = {
     card.appendChild(title);
 
     if (paper.authors) {
-      card.appendChild(this.el("p", "paper-authors", paper.authors));
+      const authors = this.el("p", "paper-authors");
+      authors.innerHTML = paper.authors.replace(
+        /Sarah H\. Wu/g,
+        "<strong>Sarah H. Wu</strong>"
+      );
+      card.appendChild(authors);
     }
 
     const venue = [paper.publication, paper.year].filter(Boolean).join(", ");
