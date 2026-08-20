@@ -11,6 +11,7 @@
   "links": [
     { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=pPhSRRYAAAAJ&hl=en&authuser=2" },
     { "label": "GitHub", "url": "https://github.com/sarahhannahwu" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/sarahhwu/" },
     { "label": "CV", "url": "./docs/Sarah_Wu_CV_2026.pdf" },
     { "label": "Email", "url": "mailto:sarwu@stanford.edu" }
   ]
