@@ -44,7 +44,17 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
   if (role) body.appendChild(Site.el("p", "profile-role", role));
 
   (profile.bio || []).forEach((paragraph) => {
-    body.appendChild(Site.el("p", "profile-bio", paragraph));
+    const p = Site.el("p", "profile-bio");
+    p.innerHTML = paragraph
+      .replace(
+        /Orquesta T[ií]pica Tarareando/g,
+        '<a href="https://conmusicaenvivo.org/tarareando/" target="_blank" rel="noopener">$&</a>'
+      )
+      .replace(
+        /Peninsula Symphony/g,
+        '<a href="https://peninsulasymphony.org/roster-by-section" target="_blank" rel="noopener">$&</a>'
+      );
+    body.appendChild(p);
   });
 
   wrapper.appendChild(body);
