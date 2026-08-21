@@ -271,14 +271,21 @@ main {
 /* --- Profile ------------------------------------------------------------ */
 
 .profile {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .profile-aside {
-  flex: 0 0 190px;
+  float: left;
+  width: 190px;
+  margin: 0 1.5rem 1rem 0;
+}
+
+/* clear the float so later sections (Publications, Talks, etc.)
+   start below the profile block instead of beside it */
+.profile::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .profile-photo {
