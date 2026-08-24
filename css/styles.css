@@ -38,6 +38,7 @@
   --nav-hover: #dff7ff;
 }
 
+/* Light mode disabled for now; dark mode only.
 :root[data-theme="light"] {
   --color-text: #1f2328;
   --color-text-muted: #59636e;
@@ -46,6 +47,7 @@
   --color-bg-subtle: #f6f8fa;
   --color-border: #d9dee3;
 }
+*/
 
 :root[data-theme="dark"] {
   --color-text: #e6edf3;
@@ -111,10 +113,12 @@ img {
   z-index: 10;
 }
 
+/* Light mode disabled for now; dark mode only.
 :root[data-theme="light"] .site-header {
   background: #FFCB47;
   border-bottom-color: rgba(31, 35, 40, 0.25);
 }
+*/
 
 .site-nav {
   width: 100%;
@@ -142,9 +146,11 @@ img {
   background: var(--color-bg-subtle);
 }
 
+/* Light mode disabled for now; dark mode only.
 :root[data-theme="light"] .nav-avatar {
   border-color: rgba(31, 35, 40, 0.35);
 }
+*/
 
 .nav-name {
   font-weight: 700;
@@ -182,6 +188,7 @@ img {
   text-decoration: none;
 }
 
+/* Light mode disabled for now; dark mode only.
 :root[data-theme="light"] .nav-name,
 :root[data-theme="light"] .nav-links a,
 :root[data-theme="light"] .nav-toggle,
@@ -193,7 +200,9 @@ img {
 :root[data-theme="light"] .theme-toggle:hover {
   color: #0d1117;
 }
+*/
 
+/* Theme toggle button disabled for now (dark mode only).
 .theme-toggle {
   flex: 0 0 auto;
   width: 2.2rem;
@@ -236,6 +245,7 @@ img {
   stroke-linejoin: round;
   stroke-width: 1.8;
 }
+*/
 
 @media (max-width: 700px) {
   .nav-toggle {
@@ -297,9 +307,11 @@ main {
   flex-shrink: 0;
 }
 
+/* Light mode disabled for now; dark mode only.
 :root[data-theme="light"] .profile-photo {
   border-color: #FFCB47;
 }
+*/
 
 .profile-body {
   flex: 1;
