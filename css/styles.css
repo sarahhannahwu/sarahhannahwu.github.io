@@ -470,6 +470,10 @@ main {
   font-size: 0.95rem;
 }
 
+#teaching .item-description {
+  color: var(--color-text-muted);
+}
+
 /* --- Footer --------------------------------------------------------------- */
 
 .site-footer {
