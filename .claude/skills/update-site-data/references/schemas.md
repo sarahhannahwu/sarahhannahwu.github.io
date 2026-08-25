@@ -14,6 +14,7 @@ Object. Rendered by `js/profile.js` (also sets the page title, nav name, and foo
   "title": "Assistant Professor of Something Interesting",
   "affiliation": "University of Somewhere",
   "photoPath": "./assets/images/headshot.svg",
+  "hoverPhotoPath": "./assets/images/headshot-alt.svg",
   "bio": [
     "First paragraph of the bio.",
     "Second paragraph of the bio."
@@ -27,6 +28,7 @@ Object. Rendered by `js/profile.js` (also sets the page title, nav name, and foo
 
 - `bio` is an array of paragraphs.
 - Optional: `photoPath` (omit to render without a photo).
+- Optional: `hoverPhotoPath` (swaps in for `photoPath` while hovering over the profile photo; omit to disable the hover effect).
 
 ## data/publications.json — published papers
 

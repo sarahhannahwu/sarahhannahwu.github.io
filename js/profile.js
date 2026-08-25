@@ -22,6 +22,14 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
     const photo = Site.el("img", "profile-photo");
     photo.src = profile.photoPath;
     photo.alt = `${profile.name || "Profile"} headshot`;
+    if (profile.hoverPhotoPath) {
+      photo.addEventListener("mouseenter", () => {
+        photo.src = profile.hoverPhotoPath;
+      });
+      photo.addEventListener("mouseleave", () => {
+        photo.src = profile.photoPath;
+      });
+    }
     aside.appendChild(photo);
   }
 
