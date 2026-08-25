@@ -47,6 +47,22 @@ Site.load("./data/profile.json", "profile-container", (container, profile) => {
     const p = Site.el("p", "profile-bio");
     p.innerHTML = paragraph
       .replace(
+        /Stanford Social Media Lab/g,
+        '<a href="https://sml.stanford.edu/research/research" target="_blank" rel="noopener">$&</a>'
+      )
+      .replace(
+        /Media and Personality Lab/g,
+        '<a href="https://maplab.stanford.edu/research" target="_blank" rel="noopener">$&</a>'
+      )
+      .replace(
+        /Thought Lab/g,
+        '<a href="https://www.reed.edu/psychology/thought-lab/" target="_blank" rel="noopener">$&</a>'
+      )
+      .replace(
+        /Academic Motivation Lab/g,
+        '<a href="https://www.reed.edu/psychology/motivation/" target="_blank" rel="noopener">$&</a>'
+      )
+      .replace(
         /Orquesta T[ií]pica Tarareando/g,
         '<a href="https://conmusicaenvivo.org/tarareando/" target="_blank" rel="noopener">$&</a>'
       )
